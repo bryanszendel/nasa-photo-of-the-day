@@ -22,14 +22,14 @@ In this project you will build out a application to show the nasa photo of the d
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your team lead as collaborator on Github.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -44,6 +44,8 @@ Follow these steps for completing your project.
 - You will be starting from scratch and building the entire app
 - You don't have any design specs to follow for this project, so you may want to start by building a basic wireframe first. Make it simple at the beginning, since you don't know what data you'll be getting back from NASA
 - Once you get the data back, there may be more than you expected, or less than you expected, so your design plans may change. That's totally fine, and very normal in the real world. Just make the proper adjustments and move forward!
+
+<!-- NASA KEY: https://api.nasa.gov/planetary/apod?api_key=JmvQUr9DIoMy0TsbX9mx0ZbTpbVnMDiWhUdFBCIg -->
 
 ## Directions
 
