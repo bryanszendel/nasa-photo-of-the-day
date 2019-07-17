@@ -1,9 +1,14 @@
 import React from "react"
+import ChangeContent from "./ChangeContent";
 
-function NasaCard({ imgUrl }) {
+function NasaCard(props) {
     return (
         <div className="nasa-card">
-            <img src={imgUrl} style={{ maxWidth: '250px' }} alt="Nasa Image of the Day"/>
+            <img src={props.imgUrl} style={{ maxWidth: '500px' }} alt="random NASA content"/>
+            <div className="card-content">
+                <h2>{props.data.title}</h2>
+                <p>{props.data.explanation}</p>
+            </div>
         </div>
     )
 }

@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+.nasa-card {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+}
+.nasa-card img {
+  box-shadow: 5px 5px 5px #282c34;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+  align-items: center;
+}
+
