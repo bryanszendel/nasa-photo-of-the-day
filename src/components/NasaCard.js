@@ -1,11 +1,9 @@
-// Building out the NASA card that will show an image
-
 import React from "react"
 
-function NasaCard() {
+function NasaCard({ imgUrl }) {
     return (
-        <div>
-            <img />
+        <div className="nasa-card">
+            <img src={imgUrl} style={{ maxWidth: '250px' }} alt="Nasa Image of the Day"/>
         </div>
     )
 }
