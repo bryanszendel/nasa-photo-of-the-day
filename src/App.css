@@ -37,7 +37,7 @@
 .nasa-card {
   display: flex;
   flex-direction: row;
-  padding: 2%;
+  /* padding: 2%; */
 }
 .nasa-card img, .nasa-card iframe {
   width: 50%;

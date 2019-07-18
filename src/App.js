@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import CardContainer from "./components/CardContainer";
+import { Container } from "semantic-ui-react"
 
 function App() {
   return (
-    <div className="App">
-      {/* <ChangeContent /> */}
+    <Container className="App">
       <CardContainer />
-    </div>
+    </Container>
   );
 }
 
