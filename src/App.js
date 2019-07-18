@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
+import CardContainer from "./components/CardContainer";
+import { Container } from "semantic-ui-react"
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
+    <Container className="App">
+      <CardContainer />
+    </Container>
   );
 }
 
