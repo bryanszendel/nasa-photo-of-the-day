@@ -8,7 +8,7 @@ import randomDate from "./randomDate.js";
 function CardContainer() {
     // NASA KEY: https://api.nasa.gov/planetary/apod?api_key=JmvQUr9DIoMy0TsbX9mx0ZbTpbVnMDiWhUdFBCIg
     const [nasaData, setNasaData] = useState([])
-    const [date, setDate] = useState('2012-3-14')
+    const [date, setDate] = useState('2019-07-17')
     let start = new Date(2001, 0, 1)
     let end = new Date()
     
@@ -28,7 +28,7 @@ function CardContainer() {
     return (
         <div className="card-container">
             <button onClick={() => setDate(`${randomDate(start, end)}`)}>Change Content</button>
-            <NasaCard imgUrl={nasaData.url} data={nasaData} />
+            <NasaCard data={nasaData} />
         </div>
 
     )

@@ -31,12 +31,16 @@
     transform: rotate(360deg);
   }
 }
+.card-container {
+  margin: 25px 0;
+}
 .nasa-card {
   display: flex;
   flex-direction: row;
   padding: 2%;
 }
-.nasa-card img {
+.nasa-card img, .nasa-card iframe {
+  width: 50%;
   box-shadow: 5px 5px 5px #282c34;
 }
 
@@ -45,5 +49,6 @@
   flex-direction: column;
   padding: 0 2%;
   align-items: center;
+  width: 50%;
 }
 
